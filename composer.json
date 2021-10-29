@@ -1,0 +1,17 @@
+{
+    "name": "4u2elien/fulll-backend",
+    "require": {
+        "behat/behat": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aurelien Litti",
+            "email": "litti.aurelien@gmail.com"
+        }
+    ]
+}
