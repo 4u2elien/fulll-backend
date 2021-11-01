@@ -9,6 +9,6 @@ final class AddVehicleToLocationCommand
 {
     function __invoke(Vehicle $vehicle, Location $location):void
     {
-          $vehicle->setLocation($location);
+        $vehicle->setLocation($location);
     }
 }

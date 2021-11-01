@@ -22,7 +22,7 @@ class Fleet
         return $this;
     }
 
-    public function removeVehicle(): self
+    public function removeVehicle(Vehicle $vehicle): self
     {
         if (($v_key = array_search($vehicle, $this->vehicles)) !== false)
             unset($this->vehicles[$v_key]);

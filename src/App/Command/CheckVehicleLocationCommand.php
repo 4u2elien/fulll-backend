@@ -9,6 +9,6 @@ final class CheckVehicleLocationCommand
 {
     function __invoke(Vehicle $vehicle, Location $location):void
     {
-          $vehicle->checkALocation($location);
+        $vehicle->checkALocation($location);
     }
 }

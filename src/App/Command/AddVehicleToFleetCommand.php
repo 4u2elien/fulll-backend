@@ -9,6 +9,6 @@ final class AddVehicleToFleetCommand
 {
     function __invoke(Fleet $fleet, Vehicle $vehicle):void
     {
-          $fleet->addVehicle($vehicle);
+        $fleet->addVehicle($vehicle);
     }
 }
