@@ -1,1 +1,1 @@
-<?php exit('meh.'); ?>
+<?php /* Nothing to do here yet. */ ?>

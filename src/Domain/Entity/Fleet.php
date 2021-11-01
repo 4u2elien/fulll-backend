@@ -37,6 +37,6 @@ class Fleet
 
     public function hasVehicle(Vehicle $vehicle): bool
     {
-        return in_array($vehicle, $this->vehicle);
+        return in_array($vehicle, $this->vehicles);
     }
 }

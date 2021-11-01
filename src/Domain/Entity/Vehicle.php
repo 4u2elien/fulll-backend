@@ -36,4 +36,13 @@ class Vehicle
 
         return $this;
     }
+
+    public function checkALocation(Location $location)
+    {
+        if ($this->location !== $location) {
+            return new \Exception("The given location isn't the same as the vehicle location.");
+        } else {
+            return true;
+        }
+    }
 }
